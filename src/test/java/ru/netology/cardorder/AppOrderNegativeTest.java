@@ -102,7 +102,7 @@ public class AppOrderNegativeTest {
         driver.findElement(By.cssSelector("[data-test-id=name] input"))
                 .sendKeys("Иванов Василий");
         driver.findElement(By.cssSelector("[data-test-id=phone] input"))
-                .sendKeys("+7925654676");
+                .sendKeys("+79256546767");
         driver.findElement(By.cssSelector("button.button"))
                 .click();
         var actualText = driver.findElement(By.cssSelector("[data-test-id=agreement].input_invalid .checkbox__text"))
